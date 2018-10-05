@@ -78,7 +78,9 @@ app.post('/tags', (request, response) => {
     label: body.label,
     value: body.value
   });
-  tag.save();
+  tag.save(function(err) {
+    console.log(err);
+  });
 });
 
 app.get('/recipe', (request, response) => {

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"RecipeProject.tags"},{"v":2,"unique":true,"key":{"label":1},"name":"label_1","ns":"RecipeProject.tags","background":true},{"v":2,"unique":true,"key":{"value":1},"name":"value_1","ns":"RecipeProject.tags","background":true}],"uuid":"99cb282dc65348cfb9329d0a668fffaf"}
